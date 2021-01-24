@@ -49,8 +49,10 @@ class DeepCrackDataset(BaseDataset):
 
         lab_path = os.path.join(self.lab_dir, os.path.basename(img_path).split('.')[0]+'.png')
         lab = cv2.imread(lab_path, cv2.IMREAD_UNCHANGED)
-        if len(lab.shape) == 3:
-            lab = cv2.cvtColor(lab, cv2.COLOR_BGR2GRAY)
+        
+        # ALL IMAGES IN RGB PLEASE!
+        #if len(lab.shape) == 3:
+        lab = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
         
         # adjust the image size
         w, h = self.opt.load_width, self.opt.load_height
