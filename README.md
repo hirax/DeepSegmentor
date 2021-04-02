@@ -1,3 +1,9 @@
+![Python 3.5](https://img.shields.io/badge/python-3.5.5-green.svg)
+![Packagist](https://img.shields.io/badge/Pytorch-0.4.1-red.svg)
+![Last Commit](https://img.shields.io/github/last-commit/yhlleo/DeepSegmentor)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-blue.svg)]((https://github.com/yhlleo/DeepSegmentor/graphs/commit-activity))
+![Contributing](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)
+
 # DeepSegmentor
 A Pytorch implementation of DeepCrack and RoadNet projects.
 
@@ -104,7 +110,9 @@ python eval.py --metric_mode prf --model_name deepcrack --output deepcrack.prf
 
 ### Acknowledgment
 
-This code is based on the [pytorch-CycleGAN-and-pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix). Thanks to the contributors of this project.
+- This code is based on the [pytorch-CycleGAN-and-pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix). Thanks to the contributors of this project. 
+
+- If you are familar to [Google Colab](https://colab.research.google.com/), there is an implementation of [Colab version](https://colab.research.google.com/drive/1t2C5mBOy7xuB4kP9TQzVOI0nglJBkMMD?usp=sharing) (provided by [DZDL/DeepSegmentor](https://github.com/DZDL/DeepSegmentor)). Besides, there is a WebApp version of this project: [crack-detector](https://github.com/DZDL/crack-detector). 
 
 ### References
 
