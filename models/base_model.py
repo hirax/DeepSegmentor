@@ -3,7 +3,7 @@ import torch
 
 from collections import OrderedDict
 
-from collections.abc ABC, abstractmethod
+from collections.abc import ABC, abstractmethod
 #from abc import ABC, abstractmethod
 
 from . import networks
